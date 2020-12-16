@@ -1,0 +1,21 @@
+$title: #ffff00;
+
+.main {
+  @include container;
+
+  .main-title {
+    color: $title;
+    font-size: 5rem;
+    padding: 0 0.75rem;
+    -webkit-text-stroke: 2px #000000;
+  }
+
+  .source {
+    @include row;
+
+    .source-item {
+      @include item;
+      padding-top: 0.625rem;
+    }
+  }
+}
